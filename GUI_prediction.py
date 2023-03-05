@@ -12,7 +12,7 @@ from PIL import Image
 from PIL import ImageOps
 
 #import the dataset
-dd1 = pd.read_excel('data.xlsx', sheet_name = 'data')
+dd1 = pd.read_excel('data/data.xlsx', sheet_name = 'data')
 df=dd1.copy(deep=True)
 
 t=32
